@@ -1,0 +1,18 @@
+{
+  "name": "tlogger",
+  "version": "0.0.0",
+  "description": "A wrapper around console (debug, info, etc.) to have control of log levels.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "console",
+    "log",
+    "wrapper",
+    "logger",
+    "logging"
+  ],
+  "author": "Kay-Uwe (Kiwi) Lorenz <kiwi@franka.dyndns.org>",
+  "license": "MIT"
+}
