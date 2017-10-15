@@ -1,6 +1,6 @@
 {
   "name": "js-console-ogging",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A wrapper around console (debug, info, etc.) to have control of log levels.",
   "main": "index.js",
   "scripts": {
