@@ -7,14 +7,14 @@ It also supports log levels and a log hierarchy, such that you can control level
 A simple logger:
 
 ```coffee
-  logger = require('tlogger')
+  logger = require('js-logging')
   logger.setLevel('debug')
 ```
 
 I developed this logger for atom packages and tests run in atom suite, so there is some specific support for this:
 
 ```coffee
-  logger = require('tlogger')
+  logger = require('js-logging')
   # logger starts per default in logging only errors
   logger.setSpecLevel('debug')
   log.debug 'this message appears only in atom spec test mode'
@@ -23,7 +23,7 @@ I developed this logger for atom packages and tests run in atom suite, so there 
 You have following logging functions:
 
 ```coffee
-  logger = require('tlogger')
+  logger = require('js-loggiing')
   fooLogger = logger.getLogger('foo')
   barLogger = logger.getLogger('foo.bar')
   oneMoreBarLogger = fooLogger.getLogger('bar')
